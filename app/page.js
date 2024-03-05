@@ -1,12 +1,13 @@
 "use client"
-import React from "react";
+import React, { Suspense } from "react";
 import BackgroundSwiper from "./components/backgroundSlider";
 import Products from "./Products/page";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="">
+    <section className="">
+      <Suspense fallback={<p>Loading home...</p>}>
       <section className="w-full h-[587px]">
         <BackgroundSwiper />
       </section>
@@ -98,54 +99,52 @@ export default function Home() {
       </div>
       </section>
       <footer>
-        <div className="bg-black w-full text-white flex justify-around py-8 px-8">
-          <div>
-            <h1>GTech</h1>
-            <p className="w-[40%]">GTech is a shopping center that deals on all kind of accessories like Phones, Tv, Laptops, Headset etc. We love our customers and deliver 24/7 anywhere in the country.</p>
+        <section>
+          <div className="bg-black w-full text-white flex justify-between py-8 px-8">
+            <div>
+              <h1 className="pb-3 font-bold">GTech</h1>
+              <p className="w-[300px] text-left">GTech is a shopping center that deals on all kind of accessories like Phones, Tv, Laptops, Headset etc. We love our customers and deliver 24/7 anywhere in the country.</p>
+            </div>
+            <div className="flex gap-5">
+                <div>
+                  <p><Link href="/">Home</Link></p>
+                  <p><Link href="/">About</Link></p>
+                  <p><Link href="/">Contact Us</Link></p>
+                  <p><Link href="/">Products</Link></p>
+                  <p><Link href="/">Cart</Link></p>
+                </div>
+                <div>
+                  <p><Link href="/">Privacy Policy</Link></p>
+                  <p><Link href="/">Careers</Link></p>
+                  <p><Link href="/">Terms and Conditions</Link></p>
+                  <p><Link href="/">Secure Payment</Link></p>
+                  <p><Link href="/">Responsibility</Link></p>
+                  <p><Link href="/">Delivery</Link></p>
+                </div>
+                <div>
+                  <p><Link href="/">Ps5</Link></p>
+                  <p><Link href="/">Ps5 VR</Link></p>
+                  <p><Link href="/">Games</Link></p>
+                  <p><Link href="/">iPhones</Link></p>
+                  <p><Link href="/">Macbook</Link></p>
+                  <p><Link href="/">Hp Latops</Link></p>
+                  <p><Link href="/">Televison</Link></p>
+                  <p><Link href="/">Other Accesories</Link></p>
+                </div>
+            </div>
+            {/* Newsletter Subscription */}
+            <div>
+              <h1>NEWSLETTER SUBSCRIPTION</h1>
+              <p>Receive products news and update in your inbox</p>
+              <div className="flex">
+                <input className="py-2 px-3 outline-none border-none text-black" type="email" placeholder="Email address" />
+                <button className="bg-blue-400 px-4 py-2" type="submit">Subscribe</button>
+              </div>
+            </div>
           </div>
-          <div>
-            <nav className="flex gap-6">
-              <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Contact Us</a></li>
-                <li><a href="/">Products</a></li>
-                <li><a href="/">Cart</a></li>
-              </ul>
-              <ul>
-                <li><a href="/">Privacy Policy</a></li>
-                <li><a href="/">Careers</a></li>
-                <li><a href="/">Terms and Conditions</a></li>
-                <li><a href="/">Secure Payment</a></li>
-                <li><a href="/">Responsibility</a></li>
-                <li><a href="/">Delivery</a></li>
-              </ul>
-              <ul>
-                <li><a href="/">Ps5</a></li>
-                <li><a href="/">Ps5 VR</a></li>
-                <li><a href="/">Games</a></li>
-                <li><a href="/">iPhones</a></li>
-                <li><a href="/">Macbook</a></li>
-                <li><a href="/">Hp Latops</a></li>
-                <li><a href="/">Televison</a></li>
-                <li><a href="/">Other Accesories</a></li>
-              </ul>
-            </nav>
-          </div>
-          {/* social link */}
-          <div className="gap-5">
-            <li><span>Instagram</span></li>
-            <li><span>Facebook</span></li>
-            <li><span>Twitter</span></li>
-            <li><span>Twitch</span></li>
-            <li><span>Twitter</span></li>
-          </div>
-          {/* Newsletter Subscription */}
-          <div>
-            
-          </div>
-        </div>
+        </section>
       </footer>
-    </main>
+      </Suspense>
+    </section>
   );
 }
