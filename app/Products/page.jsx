@@ -19,7 +19,16 @@ function Page() {
   };
 
   return (
-    <div>
+    <div className='w-full flex justify-between'>
+      <div>
+        <div className='w-[50px] h-[200px] px-5 pt-5'>
+          <p><Link href="/">Laptop</Link></p>
+          <p><Link href="/">Laptop</Link></p>
+          <p><Link href="/">Laptop</Link></p>
+          <p><Link href="/">Laptop</Link></p>
+          <p><Link href="/">Laptop</Link></p>
+        </div>
+      </div>
       <div className="bg-black text-white grid grid-cols-3 gap-4 px-12 py-20 justify-center">
         <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
           <img
