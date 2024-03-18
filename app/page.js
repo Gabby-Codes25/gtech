@@ -12,15 +12,15 @@ export default function Home() {
       <section className="w-full h-[587px]">
         <BackgroundSwiper />
       </section>
-      <section className="flex overflow-hidden gap-4 w-full h-full px-8 pb-[5.5rem] pt-5">
-      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+      <section className="bg-gray-200 flex overflow-hidden gap-4 w-full h-full px-8 py-28">
+      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
-          src="/Macbook-M2.jpg"
-          alt="Macbook M2"
+          src="/Onyx-Studio-8.jpg"
+          alt="Onyx Studio 8 image"
           className="rounded-t-xl h-48 w-full"
         />
         <div className="px-6 pt-2 pb-8">
-          <h2 className="text-white text-xl font-bold mb-2">Macbook M2</h2>
+          <h2 className="text-white text-xl font-bold mb-2">Onyx Studio 8</h2>
             <p className="pb-2">
               <span className="text-white font-bold pr-1">$256</span>
             </p>
@@ -29,7 +29,7 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
           src="/Hp-laptop.jpg"
           alt="Hp Laptop"
@@ -45,7 +45,7 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
           src="/Apple-tv.jpg"
           alt="Apple Tv"
@@ -61,7 +61,7 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
           src="/COD-MWII.jpg"
           alt="Call of Duty II"
@@ -77,7 +77,7 @@ export default function Home() {
             </button>
         </div>
       </div>
-      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+      <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
           src="/iphone-15-pro-max.jpg"
           alt="iPhone 15"

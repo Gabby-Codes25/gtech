@@ -30,14 +30,14 @@ function Page() {
         </div>
       </div>
       <div className="bg-black text-white grid grid-cols-3 gap-4 px-12 py-20 justify-center">
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
-            src="/Macbook-M3.png"
-            alt="Macbook Pro M3 image"
+            src="/onyx-studio-8.jpg"
+            alt="Onyx Studio 8 image"
             className="rounded-t-xl h-48 w-full"
           />
           <div className="px-6 pt-2 pb-8">
-            <h2 className="text-white text-xl font-bold mb-2">Macbook M3</h2>
+            <h2 className="text-white text-xl font-bold mb-2">Onyx Studio 8</h2>
               <p className="pb-2">
                 <span className="text-white font-bold pr-1">$256</span>
               </p>
@@ -46,7 +46,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Macbook-M2.jpg"
             alt="Macbook Pro M2"
@@ -62,7 +62,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Hp-laptop.jpg"
             alt="Hp Laptop"
@@ -78,7 +78,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Ps5-box.jpg"
             alt="Ps5 pad"
@@ -94,7 +94,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Ps5-VR.jpg"
             alt="Ps5 VR"
@@ -110,7 +110,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/iwatch.webp"
             alt="Apple iwatch"
@@ -126,7 +126,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Apple-tv.jpg"
             alt="Apple Tv"
@@ -142,7 +142,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Ps5-pad.webp"
             alt="Ps5 Twin pad"
@@ -158,7 +158,7 @@ function Page() {
               </button>
           </div>
         </div>
-        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-72 h-80 mx-auto mb-5">
+        <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/Macbook-Air.png"
             alt="Macbook Air"
