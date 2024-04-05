@@ -40,7 +40,7 @@ function Footer() {
             <div>
                 <h1>NEWSLETTER SUBSCRIPTION</h1>
                 <p>Receive product news and updates in your inbox</p>
-                <div className="flex">
+                <div className="md:flex">
                     <input className="py-2 px-3 outline-none border-none text-black" type="email" placeholder="Email address" />
                     <button className="bg-blue-400 px-4 py-2" type="submit">Subscribe</button>
                 </div>
