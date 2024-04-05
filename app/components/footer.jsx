@@ -4,7 +4,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <section>
-        <div className="w-full h-full bg-black text-white md:flex md:justify-between md:py-8 py-4 px-4 md:px-8">
+        <div className="w-full bg-black text-white md:flex md:justify-between md:py-8 py-4 px-4 md:px-8">
             <div>
                 <h1 className="pb-3 font-bold">GTech</h1>
                 <p className="w-[300px] text-left">GTech is a shopping center that deals with all kinds of accessories like Phones, TV, Laptops, Headsets, etc. We love our customers and deliver 24/7 anywhere in the country.</p>
