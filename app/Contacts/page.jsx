@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 function Page() {
   return (
     <div>
-      <div className='w-full md:h-[344px]'>
+      <div className='w-full md:h-[344px] h-full'>
         <div>
           <img
             src="/iwatch-banner.jpeg" 
