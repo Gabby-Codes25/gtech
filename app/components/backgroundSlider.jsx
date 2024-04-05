@@ -42,13 +42,6 @@ const BackgroundSwiper = () => {
           </SwiperSlide>
           <SwiperSlide>
           <img
-             src="/spiderman-banner.jpeg"
-             alt="Spiderman Banner"
-             className="w-full object-fill opacity-85" 
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-          <img
              src="/iphoneBanne.webp"
              alt="iPhone Banner"
              className="w-full object-cover opacity-85" 

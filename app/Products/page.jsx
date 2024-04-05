@@ -20,16 +20,17 @@ function Page() {
 
   return (
     <div className='w-full flex justify-between'>
-      <div className='bg-[#706e6e22] w-[300px] h-[600px] text-left text-xl items-center px-9 pt-5 rounded-xl'>
-        <div>
-          <p className='pb-7 list-item'><Link href="/">Laptop</Link></p>
-          <p className='pb-7 list-item'><Link href="/">Home Theater</Link></p>
-          <p className='pb-7 list-item'><Link href="/">Speaker</Link></p>
-          <p className='pb-7 list-item'><Link href="/">Ps5 Console</Link></p>
-          <p className='pb-7 list-item'><Link href="/">Television</Link></p>
-        </div>
+       <div className='bg-gray-800 text-white w-full lg:w-1/4 py-4 px-6 lg:py-8 lg:px-12'>
+        <div className='text-xl font-bold mb-4'>Categories</div>
+        <ul className='space-y-2'>
+          <li><Link href="/">Laptop</Link></li>
+          <li><Link href="/">Home Theater</Link></li>
+          <li><Link href="/">Speaker</Link></li>
+          <li><Link href="/">Ps5 Console</Link></li>
+          <li><Link href="/">Television</Link></li>
+        </ul>
       </div>
-      <div className="bg-[#a09a9a22] text-white grid grid-cols-3 gap-x-5 gap-y-8 px-24 py-20 justify-center">
+      <div className="bg-[#a09a9a22] text-white grid grid-cols-3 gap-x-5 gap-y-8 px-4 lg:px-24 py-10 lg:py-20 justify-center">
         <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/onyx-studio-8.jpg"
