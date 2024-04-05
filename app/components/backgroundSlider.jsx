@@ -23,49 +23,56 @@ const BackgroundSwiper = () => {
             <img
              src="/PlayStation-banner.webp"
              alt="PlayStation Banner"
-             className="w-full object-cover opacity-95"
+             className="w-full object-cover opacity-85"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
              src="/nba-banner.jpeg"
              alt="Nba Banner"
-             className="w-full object-cover opacity-95"
+             className="w-full object-cover opacity-85"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
              src="/God-of-war-banner.webp"
              alt="God of War Banner"
-             className="w-full object-cover opacity-95" 
+             className="w-full object-fill opacity-85" 
             />
           </SwiperSlide>
           <SwiperSlide>
           <img
              src="/spiderman-banner.jpeg"
              alt="Spiderman Banner"
-             className="w-full object-cover opacity-95" 
+             className="w-full object-fill opacity-85" 
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+          <img
+             src="/iphoneBanne.webp"
+             alt="iPhone Banner"
+             className="w-full object-cover opacity-85" 
             />
           </SwiperSlide>
           <SwiperSlide>
           <img
              src="/Samsung-phone-banner.jpeg"
              alt="Samsung phone Banner"
-             className="w-full object-cover opacity-95" 
+             className="w-full object-cover opacity-85" 
             />
           </SwiperSlide>
           <SwiperSlide>
           <img
              src="/Samsung-tv.jpeg"
              alt="Samsung tv Banner"
-             className="w-full object-cover opacity-95" 
+             className="w-full object-cover opacity-85" 
             />
           </SwiperSlide>
           <SwiperSlide>
           <img
              src="/iwatch-banner.jpeg"
              alt="iWatch Banner"
-             className="w-full object-cover opacity-95" 
+             className="w-full object-cover opacity-85" 
             />
           </SwiperSlide>
         </Swiper>

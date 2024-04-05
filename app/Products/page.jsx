@@ -20,16 +20,16 @@ function Page() {
 
   return (
     <div className='w-full flex justify-between'>
-      <div>
-        <div className='w-[50px] h-[200px] px-5 pt-5'>
-          <p><Link href="/">Laptop</Link></p>
-          <p><Link href="/">Laptop</Link></p>
-          <p><Link href="/">Laptop</Link></p>
-          <p><Link href="/">Laptop</Link></p>
-          <p><Link href="/">Laptop</Link></p>
+      <div className='bg-[#706e6e22] w-[300px] h-[600px] text-left text-xl items-center px-9 pt-5 rounded-xl'>
+        <div>
+          <p className='pb-7 list-item'><Link href="/">Laptop</Link></p>
+          <p className='pb-7 list-item'><Link href="/">Home Theater</Link></p>
+          <p className='pb-7 list-item'><Link href="/">Speaker</Link></p>
+          <p className='pb-7 list-item'><Link href="/">Ps5 Console</Link></p>
+          <p className='pb-7 list-item'><Link href="/">Television</Link></p>
         </div>
       </div>
-      <div className="bg-black text-white grid grid-cols-3 gap-4 px-12 py-20 justify-center">
+      <div className="bg-[#a09a9a22] text-white grid grid-cols-3 gap-x-5 gap-y-8 px-24 py-20 justify-center">
         <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/onyx-studio-8.jpg"

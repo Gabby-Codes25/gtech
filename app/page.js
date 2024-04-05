@@ -12,7 +12,7 @@ export default function Home() {
       <section className="w-full h-[587px]">
         <BackgroundSwiper />
       </section>
-      <section className="bg-gray-200 flex overflow-hidden gap-4 w-full h-full px-8 py-28">
+      <section className="bg-[#a09a9a22] flex overflow-hidden gap-4 w-full h-full px-8 py-28">
       <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
         <img
           src="/Onyx-Studio-8.jpg"
@@ -99,7 +99,16 @@ export default function Home() {
         </div>
       </div>
       </section>
-      <Footer />
+      <section className="bg-black w-full h-[100px]">
+        <div>
+          <img src="/payment.png" alt="Sponsors image" />
+        </div>
+      </section>
+      <section>
+        <div>
+          <Footer />
+        </div>
+      </section>
       </Suspense>
     </section>
   );
