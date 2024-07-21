@@ -4,12 +4,12 @@ import Link from 'next/link'
 function Footer() {
   return (
     <section>
-        <div className="w-full bg-black text-gray-200 md:flex md:justify-between md:py-8 py-4 pl-5 md:px-8">
+        <div className="w-full bg-gray-900 text-gray-200 md:flex md:justify-between md:py-8 py-4 pl-5 md:px-8">
             <div>
-                <h1 className="pb-3 font-bold">GTech</h1>
+                <h1 className="pb-3 font-bold text-3xl">GTech</h1>
                 <p className="w-[300px] text-left">GTech is a shopping center that deals with all kinds of accessories like Phones, TV, Laptops, Headsets, etc. We love our customers and deliver 24/7 anywhere in the country.</p>
             </div>
-            <div className="md:flex gap-5">
+            <div className="md:flex gap-5 pt-10">
                 <div className='pb-5'>
                     <p><Link href="/">Home</Link></p>
                     <p><Link href="/">About</Link></p>
@@ -37,9 +37,9 @@ function Footer() {
                 </div>
             </div>
             {/* Newsletter Subscription */}
-            <div>
+            <div className='pt-10'>
                 <h1>NEWSLETTER SUBSCRIPTION</h1>
-                <p>Receive product news and updates in your inbox</p>
+                <p className='pb-4'>Receive product news and updates in your inbox</p>
                 <div className="md:flex">
                     <input className="py-2 px-3 outline-none border-none text-black" type="email" placeholder="Email address" />
                     <button className="bg-blue-400 px-4 py-2" type="submit">Subscribe</button>
