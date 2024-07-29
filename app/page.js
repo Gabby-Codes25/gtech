@@ -1,6 +1,5 @@
 "use client"
 import React, { Suspense } from "react";
-import BackgroundSwiper from "./components/backgroundSlider";
 import Footer from "./components/footer";
 import Products from "./Products/page";
 import Link from "next/link";
@@ -10,7 +9,11 @@ export default function Home() {
     <section className="">
       <Suspense fallback={<p>Loading home...</p>}>
       <section className="w-full h-[587px]">
-        <BackgroundSwiper />
+        <img
+          src="/Hp-laptop.jpg"
+          alt="Hp-laptop image"
+          className="h-full w-full bg-black "
+        />
       </section>
       <section className="bg-[#a09a9a22] md:flex md:flex-row gap-4 flex-col items-center justify-center overflow-hidden w-full h-full px-4 lg:px-8 py-12 lg:py-28">
       <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
