@@ -8,6 +8,8 @@ function Page() {
   const router = useRouter();
   const [cartItems, setCartItems] = useState([]);
   const [showConfirmation, setShowConfirmation] = useState(false);
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
 
   const addToCart = () => {
     setCartItems(prevItems => [...prevItems, cartItems]);
@@ -20,17 +22,26 @@ function Page() {
 
   return (
     <div className='w-full flex justify-between'>
-       <div className='bg-gray-800 text-white w-full lg:w-1/4 py-4 px-6 lg:py-8 lg:px-12'>
-        <div className='text-xl font-bold mb-4'>Categories</div>
-        <ul className='space-y-2'>
-          <li><Link href="/">Laptop</Link></li>
-          <li><Link href="/">Home Theater</Link></li>
-          <li><Link href="/">Speaker</Link></li>
-          <li><Link href="/">Ps5 Console</Link></li>
-          <li><Link href="/">Television</Link></li>
-        </ul>
-      </div>
-      <div className="bg-[#a09a9a22] text-white grid grid-cols-3 gap-x-5 gap-y-8 px-4 lg:px-24 py-10 lg:py-20 justify-center">
+       <div className='bg-[#0a192f]'>
+        <div onClick={handleClick} className='cursor-pointer z-10 font-extrabold text-white  md:text-3xl bg-[#0a192f] px-6'>
+            {!nav ? ">" : "X" }
+          </div>
+          <ul
+          className={
+            !nav
+            ? 'hidden'
+            : 'cursor-pointer sm:w-[100px] md:w-[300px] h-screen bg-[#0a192f] text-white flex flex-col pt-[4rem] px-3 md:px-10'
+          }
+          >
+            <div className='text-2xl font-bold mb-4'>Categories</div>
+            <li className='md:pb-12 pt-4 pb-6'><Link href="/">Laptop</Link></li>
+            <li className='md:pb-12 pb-6'><Link href="/">Sounds</Link></li>
+            <li className='md:pb-12 pb-6'><Link href="/">Speaker</Link></li>
+            <li className='md:pb-12 pb-6'><Link href="/">Ps5 Console</Link></li>
+            <li className='md:pb-12 pb-6'><Link href="/">Television</Link></li>
+          </ul>
+        </div>
+      <div className="bg-[#a09a9a22] text-white flex flex-wrap gap-x-5 gap-y-8 px-4 lg:px-24 py-10 lg:py-20 justify-center">
         <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/onyx-studio-8.jpg"
