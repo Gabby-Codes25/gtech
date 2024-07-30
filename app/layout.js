@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <div className='w-full h-[100px] flex justify-between items-center px-8 py-16 bg-gray-800 text-gray-300'>
+          <div className='relative w-full h-[100px] flex justify-between items-center px-8 py-16 bg-gray-800 text-gray-300'>
             <div>
-              <h1 className=' font-bold text-5xl font-sans'>GTech</h1>
+              <h1 className=' font-bold md:text-4xl text-3xl font-sans'><Link href="/">GTECH</Link></h1>
             </div>
             {/* menu */}
             <ul className='hidden md:flex gap-x-8'>
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
                 </Link>
               </li>
               <li className="hover:scale-110">
-                <Link href='/Contact' smooth={true} duration={500}>
+                <Link href='/Contacts' smooth={true} duration={500}>
                   Contact
                 </Link>
               </li>
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
               </li>
             </ul>
             {/* Hamburger */}
-            <div onClick={handleClick} className='cursor-pointer md:hidden z-10'>
+            <div onClick={handleClick} className='cursor-pointer md:hidden z-10 font-bold text-2xl'>
               {!nav ? "O" : "X" }
             </div>
             {/* Mobile menu */}
@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
               </li>
               <li className='py-6 text-4xl hover:scale-110'>
                 {' '}
-                <Link onClick={handleClick} href='/Contact' smooth={true} duration={500}>
+                <Link onClick={handleClick} href='/Contacts' smooth={true} duration={500}>
                   Contact
                 </Link>
               </li>

@@ -11,7 +11,7 @@ function Page() {
           <img
             src="/iwatch-banner.jpeg" 
             alt="iWatch" 
-            className='opacity-75 h-[300px] w-full sm:object-cover'
+            className='opacity-75 md:h-[400px] h-[200px] w-full sm:object-cover'
           />
         </div>
       </div>

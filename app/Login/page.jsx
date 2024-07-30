@@ -5,7 +5,7 @@ function LoginPage() {
   return (
     <div className='w-full'>
       <div className="flex items-center justify-center bg-gray-50 md:py-12 py-5 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-md w-full space-y-8">
+        <div className="max-w-md w-full space-y-8 bg-gray-200 px-8 py-8 rounded-xl">
           <div>
             <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
           </div>

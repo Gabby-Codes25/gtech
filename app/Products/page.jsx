@@ -22,7 +22,7 @@ function Page() {
 
   return (
     <div className='w-full flex justify-between'>
-       <div className='bg-[#0a192f]'>
+       <div className='bg-[#0a192f] '>
         <div onClick={handleClick} className='cursor-pointer z-10 font-extrabold text-white  md:text-3xl bg-[#0a192f] px-6'>
             {!nav ? ">" : "X" }
           </div>
@@ -41,7 +41,7 @@ function Page() {
             <li className='md:pb-12 pb-6'><Link href="/">Television</Link></li>
           </ul>
         </div>
-      <div className="bg-[#a09a9a22] text-white flex flex-wrap gap-x-5 gap-y-8 px-4 lg:px-24 py-10 lg:py-20 justify-center">
+      <div className="bg-[#a09a9a22] w-full text-white flex flex-wrap gap-x-5 gap-y-8 px-4 lg:px-24 py-10 lg:py-20 justify-center">
         <div className="bg-gray-600 border-black shadow-2xl rounded-xl w-64 h-80 mx-auto mb-5">
           <img
             src="/onyx-studio-8.jpg"

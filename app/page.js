@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section className="">
       <Suspense fallback={<p>Loading home...</p>}>
-      <section className="w-full h-[587px]">
+      <section className="w-full md:h-[587px] h-[500px]">
         <img
           src="/Hp-laptop.jpg"
           alt="Hp-laptop image"
