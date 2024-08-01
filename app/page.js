@@ -9,10 +9,12 @@ export default function Home() {
     <section className="">
       <Suspense fallback={<p>Loading home...</p>}>
       <section className="w-full md:h-[587px] h-[500px]">
+        {/* <div className=""></div>
+        <div className=""></div> */}
         <img
           src="/Hp-laptop.jpg"
           alt="Hp-laptop image"
-          className="h-full w-full bg-black "
+          className="h-full w-full bg-black"
         />
       </section>
       <section className="bg-[#a09a9a22] md:flex md:flex-row gap-4 flex-col items-center justify-center overflow-hidden w-full h-full px-4 lg:px-8 py-12 lg:py-28">
