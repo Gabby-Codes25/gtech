@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="absolute top-[8rem]">
+    <section className="w-full absolute top-[8rem]">
       <Suspense fallback={<p>Loading home...</p>}>
       <section className="w-full md:h-[587px] h-[500px]">
         {/* <div className=""></div>

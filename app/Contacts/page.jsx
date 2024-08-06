@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 
 function Page() {
   return (
-    <div className='absolute top-[8rem]'>
+    <div className=' w-full absolute top-[8rem]'>
       <div className='w-full md:h-[344px]'>
         <div>
           <img
