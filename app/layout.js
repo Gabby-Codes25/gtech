@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <header>
-          <div className='relative w-full h-[100px] flex justify-between items-center px-8 py-16 bg-gray-800 text-gray-300'>
+          <div className='fixed z-10 w-full h-[100px] flex justify-between items-center px-8 py-16 bg-gray-800 text-gray-300'>
             <div>
               <h1 className=' font-bold md:text-4xl text-3xl font-sans'><Link href="/">GTECH</Link></h1>
             </div>

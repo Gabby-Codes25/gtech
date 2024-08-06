@@ -10,7 +10,7 @@ function Page() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='flex'>
+    <div className='flex absolute top-[8rem]'>
       <div className='fixed left-0 h-full bg-[#0a192f] text-white flex flex-col z-20 transition-width duration-300 ease-in-out' style={{ width: nav ? '200px' : '50px' }}>
         <div onClick={handleClick} className='cursor-pointer z-10 font-extrabold text-white text-3xl px-4 py-4'>
           {nav ? "X" : ">"}

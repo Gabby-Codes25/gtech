@@ -16,7 +16,7 @@ function CartPage({cartItems,setCartItems}) {
   };
 
   return (
-    <div>
+    <div className='absolute top-[8rem]'>
       <div className="container mx-auto py-8">
         <h1 className="text-3xl font-semibold mb-4">Cart</h1>
         {cartItems.length === 0 ? (
