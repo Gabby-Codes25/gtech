@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from "react"
+import { Analytics } from "@vercel/analytics/react"
 import Cart from "./Cart/page"
 import Products from "./Products/page";
 import Contacts from "./Contacts/page";
