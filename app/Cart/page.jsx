@@ -1,14 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import Footer from '../components/footer'
+import Footer from '../components/footer';
 
-function CartPage() {
-  const [cartItems, setCartItems] = useState([
-    { id: 1, name: "Product 1", price: 100 },
-    { id: 2, name: "Product 2", price: 150 },
-    { id: 3, name: "Product 3", price: 200 },
-  ]);
-
+function CartPage({cartItems,setCartItems}) {
+  
   // Function to remove item from cart
   const removeFromCart = (id) => {
     const updatedCart = cartItems.filter(item => item.id !== id);
